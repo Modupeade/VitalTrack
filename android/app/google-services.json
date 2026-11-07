@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549792424345",
+    "project_id": "vh-1-5ed7e",
+    "storage_bucket": "vh-1-5ed7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549792424345:android:3a7b3128065c056ef53308",
+        "android_client_info": {
+          "package_name": "com.vital101.vital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549792424345-ns61gugtc72f7ulsfa5bb12rqrps1756.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgi1dpc-M3mnVAlKPRBb6OxP7mTPvEPls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549792424345-ns61gugtc72f7ulsfa5bb12rqrps1756.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

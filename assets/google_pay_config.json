@@ -1,0 +1,39 @@
+{
+  "provider": "google_pay",
+  "data": {
+    "environment": "TEST",
+    "apiVersion": 2,
+    "apiVersionMinor": 0,
+    "allowedPaymentMethods": [
+      {
+        "type": "CARD",
+        "tokenizationSpecification": {
+          "type": "PAYMENT_GATEWAY",
+          "parameters": {
+            "gateway": "stripe",
+            "stripe:version": "2020-08-27",
+            "stripe:publishableKey": "pk_test_51PAuR4L0LhVOzMcJjzvloWpit2fvae0KxMfDz0Ob0wuoLHDlBnHhntRP4BGh60WnKwpGvE8DPjBSyuzgcDJLZq1F000XNjhero"
+          }
+        },
+        "parameters": {
+          "allowedCardNetworks": ["VISA", "MASTERCARD"],
+          "allowedAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"],
+          "billingAddressRequired": true,
+          "billingAddressParameters": {
+            "billingAddressFormat": "FULL",
+            "billingAddressPhoneNumberRequired": true
+          }
+        }
+      }
+    ],
+    "merchantInfo": {
+      "merchantName": "Vitals 10"
+    },
+    "transactionInfo": {
+      "countryCode": "US",
+      "currencyCode": "USD",
+      "totalPriceStatus": "FINAL",
+      "totalPrice": "10.00"
+    }
+  }
+}

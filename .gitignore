@@ -1,0 +1,47 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata.bak
+
+# FVM
+.fvm/flutter_sdk
+.fvm/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+**/*.keystore
+**/*.jks
+android/app/release/
+android/captures/
+*.hprof
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Runner/GeneratedPluginRegistrant.*
+**/Flutter/ephemeral/
+
+# macOS / misc
+.DS_Store
+*.log
+
+# Secrets (never commit)
+*.env
+.env*
+**/keystore info/

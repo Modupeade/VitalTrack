@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vitals 101</string>
+
+    <string name="facebook_app_id">836808702461029</string>
+    <string name="facebook_client_token">d8dd3411717edaf6b98407940387ef9d</string>
+</resources>
